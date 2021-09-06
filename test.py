@@ -152,8 +152,8 @@ def barcode_gen_qr(num7):
             print("Barcode will be created.")
             img.save("qrcode.png")
 def test(code23):
-       barcode = code23
-       return barcode
+       
+       return barcode==code23
 #Main Code
 start()
 print("Spell Out The Quantity Amount ")
@@ -175,6 +175,7 @@ while word != 'Q':
     print(s)
     #Turns The 12 Digit Number to a String
     code = "".join(map(str,s))
+    barcode = code
     print(code)
     test(code)
     print("Do You want to save the 12 Digit Barcode? Y or N")
