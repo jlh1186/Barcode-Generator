@@ -6,7 +6,7 @@
 import re
 import hashlib
 from pathlib import Path
-import barcode
+from barcode  import EAN13
 from barcode.writer import ImageWriter
 from random import randint
 from datetime import date
