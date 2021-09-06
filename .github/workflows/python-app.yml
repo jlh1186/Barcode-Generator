@@ -36,6 +36,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-        one
-        6
-        Order Number: 2P54CEAD7Kl 
+        print(one)
+        print(6)
+        print(Order Number: 2P54CEAD7Kl)
