@@ -174,7 +174,7 @@ while word != 'Q':
     code = "".join(map(str,s))
     print(code)
     print("Do You want to save the 12 Digit Barcode? Y or N")
-    ques109 = input()
+    ques109 = 'Y'
     if ques109 == 'Y':
        #Generate Barcode        
         barcode_gen(code)
