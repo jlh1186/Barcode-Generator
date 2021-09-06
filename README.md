@@ -21,6 +21,8 @@ Barcode Generator - Alpha Version.
 
 License Information Link.
 
+****Note: Must install Barcode and Pillow
+
 Email jlh1186@gmail.com for More Information.
 
 Registered for Copyright in 2021
