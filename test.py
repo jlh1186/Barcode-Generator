@@ -151,7 +151,7 @@ def barcode_gen_qr(num7):
             print(f'The file {path_to_file} does not exist')
             print("Barcode will be created.")
             img.save("qrcode.png")
-def test(code23):
+def test(cache):
        
        return barcode==code23
 #Main Code
