@@ -181,3 +181,4 @@ while word != 'Q':
         barcode_gen_qr(code)
     print("Enter Q to Quit")
     word = 'Q'
+    test = barcode
