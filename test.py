@@ -153,7 +153,7 @@ def barcode_gen_qr(num7):
             img.save("qrcode.png")
 def test(cache):
        
-       return barcode==code23
+       return barcode==cache
 #Main Code
 start()
 print("Spell Out The Quantity Amount ")
