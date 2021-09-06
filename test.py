@@ -66,7 +66,7 @@ def quantity(qty):
 #Takes A Subject Discription of The Item
 def subject():
     print("Enter An Order Number.")
-    disc = input()
+    disc = 'Order Number: 3959572740'
     return disc
 #Using Sha256 Hash for Authenticity
 #Uses The Subject
@@ -155,7 +155,7 @@ def barcode_gen_qr(num7):
 start()
 print("Spell Out The Quantity Amount ")
 print("Enter Q to Quit")
-word = input()
+word = 'one'
 while word != 'Q':
     #Print Out The Word
     print(lang_numbers(word))
@@ -180,4 +180,4 @@ while word != 'Q':
         barcode_gen(code)
         barcode_gen_qr(code)
     print("Enter Q to Quit")
-    word = input()
+    word = 'Q'
