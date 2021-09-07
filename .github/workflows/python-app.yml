@@ -24,7 +24,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install barcode
+        pip install python-barcode
         pip install pillow
+        pip install qrcode
+        pip install qr-code-generator
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
@@ -35,4 +38,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest test.py -v
+        pytest test.py -s
