@@ -22,10 +22,15 @@ Barcode Generator - Alpha Version.
 License Information Link.
 
 ****Note: Must install Barcode, QR Code and Pillow
-pip install barcode 
-pip install python-barcode 
-pip install pillow 
-pip install qrcode 
+
+pip install barcode
+ 
+pip install python-barcode
+ 
+pip install pillow
+
+pip install qrcode
+ 
 pip install qr-code-generator
 
 Email jlh1186@gmail.com for More Information.
